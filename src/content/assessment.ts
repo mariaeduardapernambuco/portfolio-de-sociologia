@@ -1,0 +1,23 @@
+export const selfAssessment = [
+  'Comecei a disciplina achando que já tinha um olhar crítico sobre a sociedade. Isso não era exatamente o que eu precisava mudar. O que eu ainda estava aprendendo era a transformar esse olhar em perguntas que conseguisse compartilhar com outras pessoas, sem esperar que cada ideia estivesse pronta e completamente organizada.',
+  'A aula do pote é uma boa imagem desse processo. Eu poderia ter ficado apenas na descrição dos objetos, mas as conversas e a aproximação com Giddens me ajudaram a relacioná-los ao trabalho, às decisões econômicas e às estruturas sociais. Não é que eu tenha passado a enxergar algo totalmente desconhecido; comecei a encontrar outras maneiras de explicar por que certas coisas me chamavam atenção.',
+  'Também reconheço um avanço na pesquisa. Ao procurar textos, entrevistas e artigos sobre Crenshaw, Lélia Gonzalez e Du Bois para a atividade coletiva sobre raça e etnicidade, precisei lidar com ideias que exigem precisão. Entendi melhor a diferença entre repetir uma palavra importante, como “interseccionalidade”, e tentar compreender o que ela permite observar quando olhamos para situações concretas.',
+  'A parte mais pessoal, porém, está na participação. Em alguns momentos eu tinha uma pergunta ou uma opinião, mas hesitava em colocá-la na conversa. Aos poucos, percebi que falar não exigia chegar à aula com uma conclusão definitiva. Uma pergunta ainda em formação também podia ser um ponto de partida para ouvir os outros e reconsiderar o que eu pensava.',
+  'Quero continuar desenvolvendo essa disposição. Tenho facilidade para procurar informações e estabelecer conexões entre temas, especialmente quando envolvem tecnologia, organizações e sociedade. Meu desafio é não deixar que a vontade de formular tudo com precisão me impeça de participar enquanto ainda estou tentando encontrar as palavras.',
+  'Se eu tivesse que guardar uma mudança deste semestre, seria esta: o conhecimento não apareceu apenas no que aprendi a responder, mas também na coragem de levar para a conversa aquilo que ainda não sei explicar inteiramente.'
+];
+
+export const courseAssessment = [
+  'Gostei da disciplina porque ela abriu espaço para formas de aprender que não encontro com tanta frequência no curso de Administração. As leituras foram importantes, mas não ficaram sozinhas. Tivemos atividades que pediram observação, pesquisa, conversa e circulação por outros espaços da cidade.',
+  'A visita à Fundação Joaquim Nabuco me fez reconsiderar o que significa conhecer uma instituição cultural. No REC’n’Play, o contato com profissionais de tecnologia trouxe perguntas sobre trabalho, dados e decisões organizacionais. No Cine Sócio, rever Ilha das Flores me mostrou como uma mesma obra pode oferecer caminhos diferentes de observação. Esses momentos fazem parte da experiência acadêmica tanto quanto os textos que discutimos.',
+  'A disciplina também me ajudou a pensar no que significa agir em sociedade. Não no sentido de imaginar que uma pessoa, sozinha, consegue mudar estruturas complexas, mas no de reconhecer que nossas decisões, nosso trabalho e nossa participação acontecem dentro de relações maiores. Para alguém que estuda Administração e tecnologia, essa percepção é especialmente relevante.',
+  'Não diria que o semestre transformou completamente minha visão de mundo. Eu já tinha perguntas e interesses anteriores à disciplina. O que aconteceu foi uma ampliação de repertório: encontrei conceitos para organizar algumas dúvidas, outras perguntas surgiram, e fiquei mais disposta a participar de debates que talvez antes eu acompanhasse em silêncio.'
+];
+
+export const courseSuggestion = [
+  'Uma possibilidade para turmas futuras seria reservar um breve momento depois de cada visita para que cada estudante compartilhasse uma fotografia, uma pergunta surgida durante a experiência e uma conexão com alguma leitura da disciplina.',
+  'Imagino essa dinâmica como uma forma simples de prolongar o olhar sobre o que vimos fora da sala, sem substituir os debates já realizados. Fotografias diferentes podem mostrar o que chamou atenção de cada pessoa; as perguntas ajudam a transformar observações em conversa; e a conexão com uma leitura pode aproximar a experiência dos conceitos discutidos em aula.',
+  'Gosto da ideia porque nem sempre consigo organizar uma percepção inteira durante o passeio ou no mesmo dia. Ter um momento breve para retomá-la poderia dar continuidade ao que começou na visita e abrir espaço para comparar olhares.'
+];
+
+export const closingThought = 'Termino este portfólio sem todas as respostas. Mas levo comigo perguntas que hoje consigo fazer de um jeito mais atento. Principalmente, tenho mais vontade de colocá-las em conversa.';

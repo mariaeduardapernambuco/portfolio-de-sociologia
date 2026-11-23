@@ -1,0 +1,114 @@
+@media (max-width: 1050px) {
+  .hero__about-grid { grid-template-columns: minmax(245px,.8fr) minmax(0,1.2fr); gap: 45px; }
+  .hero__art-word { font-size: clamp(48px,6.8vw,76px); }
+  .interlude__inner { grid-template-columns: 105px minmax(0,1fr) 40px; gap: 20px; }
+  .interlude__glyph { font-size: 62px; }
+  .section-heading__main { grid-template-columns: 1.3fr .7fr; }
+  .course-layout { gap: 40px; }
+}
+
+@media (max-width: 760px) {
+  :root { --header-height: 145px; }
+  .site-header__bar { min-height: 48px; }
+  .brand { font-size: 12px; }
+  .brand__square { width: 27px; height: 27px; font-size: 18px; }
+  .header-note { display: none; }
+  .header-index { font-size: 10px; }
+  .folder-nav { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 4px 7px; padding-bottom: 0; }
+  .folder-tab { min-height: 46px; padding: 8px 11px; font-size: 17px; border-radius: 9px 9px 0 0; border-bottom-width: 3px; }
+  .folder-tab__number { font-size: 9px; }
+  .hero__head { padding-top: 18px; }
+  .overline { font-size: 9px; }
+  .hero__stripes { background-size: 56px 100%; background-image: repeating-linear-gradient(90deg, var(--powder) 0, var(--powder) 28px, var(--paper) 28px, var(--paper) 56px); }
+  .hero__title-wrap { padding-top: 85px; }
+  .hero__pretitle { font-size: clamp(31px,7vw,50px); }
+  .hero__red-line { width: 30px; }
+  .hero__title { font-size: 16vw; letter-spacing: -.066em; }
+  .hero__under-title { align-items: flex-start; font-size: 11px; }
+  .hero__edition { font-size: 9px; }
+  .hero__about-grid { grid-template-columns: 1fr; gap: 58px; padding-top: 65px; }
+  .hero__identity { max-width: 540px; width: 100%; margin-inline: auto; }
+  .hero__typographic-art { aspect-ratio: 5/4; }
+  .hero__art-word { font-size: clamp(58px,10vw,88px); }
+  .hero__identity-caption { margin-top: 32px; }
+  .hero__about h2 { margin-top: 18px; margin-bottom: 25px; }
+  .hero__footnote { margin-top: 75px; }
+  .section-heading__main { display: block; }
+  .section-heading h2 { max-width: 600px; }
+  .section-heading__main p { margin-top: 32px; max-width: 50ch; }
+  .diary-entry { grid-template-columns: 75px minmax(0,1fr); gap: 18px; }
+  .diary-entry__number { font-size: 67px; }
+  .diary-entry__side-label { font-size: 9px; }
+  .diary-entry h3 { font-size: clamp(39px,7vw,65px); }
+  .diary-entry__lead { font-size: 24px; }
+  .interlude__inner { grid-template-columns: 1fr; }
+  .interlude__number { margin-bottom: 18px; }
+  .interlude__glyph { display: none; }
+  .interlude p { font-size: clamp(50px,9vw,90px); }
+  .reflection-layout { grid-template-columns: 70px minmax(0,1fr); gap: 16px; }
+  .reflection-layout__asterisk { font-size: 50px; }
+  .reflection-layout__opening { font-size: clamp(37px,6vw,55px) !important; }
+  .course-layout { grid-template-columns: 1fr; gap: 70px; }
+  .course-layout__suggestion { transform: rotate(.5deg); }
+  .closing-note { grid-template-columns: 1fr; margin-top: 80px; }
+  .activities-table__item { grid-template-columns: 50px minmax(0,1fr) 22px; gap: 15px; }
+  .activities-table__num { font-size: 38px; }
+  .footer__inner { grid-template-columns: 1fr; gap: 55px; }
+  .footer__headline { font-size: clamp(74px,12vw,116px); }
+}
+
+@media (max-width: 480px) {
+  .frame { padding-inline: 20px; }
+  .site-header__bar { min-height: 45px; }
+  .brand { font-size: 11px; gap: 6px; }
+  .brand__square { width: 25px; height: 25px; }
+  .header-index { font-size: 9px; }
+  .header-index span { margin-left: 1px; }
+  .folder-tab { font-size: 15px; gap: 6px; }
+  .folder-tab__arrow { font-size: 11px; }
+  .hero__head { gap: 7px; }
+  .overline { font-size: 8px; padding: 5px; letter-spacing: .06em; }
+  .hero__title-wrap { padding-top: 65px; }
+  .hero__pretitle { font-size: 34px; }
+  .hero__title { font-size: 15.6vw; }
+  .hero__under-title { flex-direction: column; gap: 7px; }
+  .hero__about-grid { padding-top: 48px; }
+  .hero__typographic-art { aspect-ratio: 4/4.1; padding: 24px; }
+  .hero__art-word { font-size: clamp(57px,13vw,75px); }
+  .hero__about h2 { font-size: 68px; }
+  .hero__about p { font-size: 14px; line-height: 1.86; }
+  .hero__actions { flex-direction: column; align-items: stretch; gap: 8px; }
+  .hero__actions a { justify-content: space-between; }
+  .hero__footnote { flex-direction: column; align-items: flex-start; gap: 10px; }
+  .section-heading { padding-top: 65px; }
+  .section-heading h2 { font-size: clamp(57px,12vw,82px); }
+  .section-heading__main p { font-size: 13px; }
+  .diary-entry { display: block; padding-block: 70px; }
+  .diary-entry__side { flex-direction: row; align-items: center; margin-bottom: 26px; gap: 13px; }
+  .diary-entry__number { font-size: 60px; }
+  .diary-entry__side-line { width: 22px; }
+  .diary-entry__side-label { writing-mode: horizontal-tb; transform: none; margin: 0; }
+  .diary-entry h3 { font-size: clamp(47px,12vw,62px); }
+  .diary-entry__prose p { font-size: 15px; line-height: 1.84; }
+  .diary-entry__lead { font-size: 25px; padding-left: 17px; }
+  .diary-entry__question p { font-size: 30px; }
+  .photo-essay__head { flex-direction: column; }
+  .photo-essay__grid { grid-template-columns: 1fr; }
+  .photo-essay__grid figure:nth-child(4n+3) { grid-column: auto; }
+  .readings-section { padding-top: 50px; }
+  .interlude p { font-size: clamp(50px,11.5vw,70px); }
+  .reflection-layout { grid-template-columns: 1fr; gap: 26px; padding-top: 45px; }
+  .reflection-layout__margin { flex-direction: row; }
+  .vertical-label { writing-mode: horizontal-tb; transform: none; }
+  .reflection-layout__asterisk { display: none; }
+  .reflection-layout__opening { font-size: 44px !important; }
+  .reflection-layout__text > p:not(.reflection-layout__opening), .course-layout__main > p:not(.course-layout__kicker) { font-size: 15px; }
+  .course-layout__suggestion { padding: 30px; }
+  .closing-note p { font-size: 36px; }
+  .activities-table__item { grid-template-columns: 35px minmax(0,1fr); gap: 13px; }
+  .activities-table__num { font-size: 30px; }
+  .activities-table__mark { display: none; }
+  .activities-table__title { font-size: 26px; }
+  .footer__headline { font-size: clamp(65px,15vw,90px); }
+  .footer__baseline { font-size: 9px; }
+}

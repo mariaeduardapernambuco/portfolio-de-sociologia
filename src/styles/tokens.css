@@ -1,0 +1,18 @@
+:root {
+  --paper: #FAF7EC;
+  --white: #FFFEF9;
+  --powder: #C5E2F4;
+  --powder-soft: #EAF4FA;
+  --blue: #206AA5;
+  --blue-dark: #124773;
+  --red: #A31920;
+  --ink: #171717;
+  --muted: #5C5A58;
+  --line: #D8D2C8;
+  --charcoal: #171717;
+  --display: 'Archivo Narrow', 'Arial Narrow', 'Roboto Condensed', sans-serif;
+  --body: 'DM Sans', Arial, sans-serif;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --header-height: 123px;
+  --text-width: 66ch;
+}
