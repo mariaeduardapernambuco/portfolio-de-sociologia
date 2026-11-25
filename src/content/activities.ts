@@ -36,7 +36,7 @@ export const activities: Record<string, Activity> = {
   cine: {
     id: 'cine',
     title: 'Ler o diário de campo do Cine Sócio',
-    url: 'https://docs.google.com/document/d/1FaGu6tgv_swmDGdrunH6Ly3zkFWmzq5K/edit?usp=sharing&ouid=118372244558731830283&rtpof=true&sd=true',
+    url: 'https://docs.google.com/document/d/1u5hQ15MOKBorx1NtXE65dMvv5lHkyz1xgjMmN6g9RPI/edit?usp=sharing',
     category: 'Diário de campo',
     relatedHref: '#cine-socio',
     relatedLabel: 'Cine Sócio',

@@ -24,11 +24,13 @@ O Vite gera a versão estática em `dist/`.
 
 | Alteração | Arquivo |
 | --- | --- |
-| Dois parágrafos de apresentação e foto de capa | `src/content/site.ts` |
+| Apresentação e foto de capa | `src/content/site.ts` |
 | Entradas do diário de pesquisa | `src/content/research.ts` |
 | Entradas do diário de leitura | `src/content/readings.ts` |
 | Autoavaliação, avaliação e encerramento | `src/content/assessment.ts` |
 | URLs, títulos e vínculos dos sete materiais | `src/content/activities.ts` |
+| Bibliografia, fontes externas e referências do portfólio | `src/content/references.ts` |
+| Projetos acadêmicos, descrições e links | `src/content/projects.ts` |
 | Cores e tipografias | `src/styles/tokens.css` |
 | Composições e interações | `src/styles/global.css` |
 | Adaptação de telas estreitas | `src/styles/responsive.css` |
@@ -77,15 +79,15 @@ As fontes usam Google Fonts e possuem fallbacks. Se for necessário funcionament
 
 ## Inventário e limites documentais
 
-A implementação foi realizada com base no arquivo de prompt fornecido pela autora. **Já foram incorporados:** a fotografia original de apresentação e onze registros fotográficos relacionados à Fundaj, à Torre Malakoff, ao REC’n’Play e ao Cine Sócio. **Ainda não foram consultados:** os três PDFs de referência visual e o PDF do diário de campo original. Os sete endereços externos foram incluídos conforme fornecidos; a leitura do conteúdo e a permissão de acesso público não puderam ser verificadas pela ferramenta disponível.
+A implementação foi realizada com base no prompt, nas fotografias e no diário da atividade de perfil fornecidos pela autora. **Já foram incorporados:** a fotografia original de apresentação e onze registros fotográficos relacionados à Fundaj, à Torre Malakoff, ao REC’n’Play e ao Cine Sócio. **Ainda não foram consultados:** os três PDFs de referência visual e o PDF do diário de campo original. Os sete endereços externos foram incluídos conforme fornecidos; a leitura do conteúdo e a permissão de acesso público não puderam ser verificadas pela ferramenta disponível.
 
 Por isso:
 
 - Não há fotografias apresentadas falsamente como registros acadêmicos.
-- Os dois parágrafos aprovados de **Quem escreve** estão preservados integralmente.
+- Os dois parágrafos de **Quem escreve** foram reescritos a pedido da autora, priorizando uma apresentação mais pessoal e a relação entre negócios, tecnologia e pessoas.
 - As narrativas complementares foram desenvolvidas a partir dos fatos narrados no prompt, sem inventar observações, falas ou títulos de obras não identificadas.
 - A entrada **Organizações na modernidade** contém o título e o link, sem resumo inventado da fonte inacessível.
-- A seção sobre perfil socioeconômico explicita que o diário completo não foi consultado; evita qualquer dado de colegas.
+- A seção sobre perfil socioeconômico agora utiliza o diário da atividade fornecido pela autora, incluindo data, percentuais e reflexão crítica; dados individuais de colegas não são publicados.
 - O capítulo de Marx não apresenta uma referência bibliográfica completa porque a edição não foi confirmada nos arquivos.
 - O índice não promete que os links estejam abertos ao público; eles podem exigir permissões do Google/Canva.
 
@@ -93,16 +95,42 @@ Por isso:
 
 ## Prévia independente de instalação
 
-Além do código-fonte React, foi incluído `preview/portfolio-preview-autocontido.html`. Ele contém **o mesmo conteúdo e CSS exportados do projeto**, em um único HTML que pode ser aberto no navegador sem instalar nada. As capturas de tela da versão anterior foram retiradas do pacote para evitar mostrar um layout desatualizado. Abra `preview/portfolio-preview-autocontido.html` para ver o portfólio completo com as fotografias atualizadas.
+Além do código-fonte React, foi incluído `preview/portfolio-preview-autocontido.html`. Ele contém **o mesmo conteúdo e CSS exportados do projeto**, em um único HTML que pode ser aberto no navegador sem instalar nada. Há capturas atuais da seção de projetos em desktop e celular na pasta `preview/`. Abra `preview/portfolio-preview-autocontido.html` para ver o portfólio completo com as fotografias atualizadas.
 
 O preview tem âncoras, abas e indicador de progresso em JavaScript nativo; é uma amostra estática, **não** substitui `npm run build` nem o deploy de produção.
 
 ## Relatório de validação deste pacote
 
-- 16 arquivos TS/TSX: sintaxe analisada, 0 erros de parse na exportação revisada.
-- 13 entradas editoriais: 8 registros de pesquisa e 5 leituras.
+- A exportação estática da versão atual não apresentou erros de sintaxe TS/TSX.
+- 13 entradas editoriais: 8 registros de pesquisa e 5 leituras. Texto do perfil socioeconômico atualizado em 25/11/2026.
 - Todos os links internos no HTML exportado têm destinos existentes.
 - 7 endereços externos distintos preservados; apresentados em 15 pontos de acesso.
-- Layout previamente inspecionado em 1365 × 900 e 390 × 844 antes desta revisão. Nesta atualização, o HTML com as novas imagens foi exportado e validado; novas capturas pelo navegador não puderam ser concluídas neste ambiente.
+- A seção de projetos foi inspecionada no navegador em 1366 × 900 e 390 × 844, sem rolagem horizontal. As três capas carregaram corretamente.
 - **Build Vite pendente:** este ambiente não conseguiu acessar o registro npm para instalar `react`, `vite` e as demais dependências. Não foi possível executar `npm run build`; rode `npm install && npm run build` em um ambiente com acesso ao registro npm antes de publicar.
 - **Publicação pendente:** nenhuma hospedagem ou URL pública foi criada nesta execução.
+
+## Fotos adicionadas: perfil socioeconômico
+
+As imagens `perfil-areas-extensao.jpeg` e `perfil-renda-familiar.jpeg` documentam os gráficos projetados durante a aula sobre o perfil da turma. Estão associadas ao registro `perfil-socioeconomico` em `src/content/research.ts`.
+
+## Referências sobre Túlio Velho Barreto
+
+O relato da visita à Fundaj foi ampliado com informações biográficas conferidas em fontes públicas, sem atribuição de falas literais a ele.
+
+- Equipe PIBIC/Fundaj: https://sociolabfundaj.wixsite.com/pibicemfundaj1ed/equipe
+- Seminário Manuel Correia de Andrade, USP: https://sites.usp.br/pmca/seminariopmca2023/
+- Jornal do Commercio, 18/08/2025: https://jc.uol.com.br/pernambuco/2025/08/18/coloquio-no-recife-vai-abordar-historias-e-acervos-do-abolicionismo-e-do-pos-abolicao.html
+
+## Fontes e referências no site
+
+A seção final reúne os sete materiais da disciplina, referências acadêmicas e fontes sobre Túlio Velho Barreto. Fontes que apenas apoiam a contextualização são identificadas sem a alegação de que fizeram parte das leituras efetivamente realizadas.
+
+## Projetos da autora
+
+A seção **Projetos** apresenta três trabalhos com links fornecidos pela autora: IDEIA (residência em grupo no Embarque Digital para o SJCC), ContagIA (Globo) e Tetris (atividade de disciplina). Esses projetos também são apresentados em primeira pessoa na seção **Quem escreve**. Os registros estão em `src/content/projects.ts`. As três capas SVG em `public/images/` são ilustrações editoriais originais, e não capturas das aplicações. Não foram inferidos funcionalidades ou resultados não descritos pela autora.
+
+A apresentação **Quem escreve** inclui os interesses pessoais da autora, o estágio na Coordenadoria de Gás e Energia da ARPE e sua condição de bolsista do Embarque Digital.
+
+## Atualização da marca
+
+O cabeçalho e o favicon utilizam um monograma **M** em vermelho editorial, papel creme e azul-claro, em `public/favicon.svg`. A marca substitui o antigo símbolo de pasta sem descaracterizar o restante da identidade visual.

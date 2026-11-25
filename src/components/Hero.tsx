@@ -8,7 +8,7 @@ export function Hero() {
         <div className="frame hero__title-wrap">
           <div className="hero__pretitle"><span className="hero__red-line" />Portfólio de</div>
           <h1 id="hero-title" className="hero__title">SOCIOLOGIA</h1>
-          <div className="hero__under-title"><span>O que cabe entre uma observação e uma pergunta?</span><span className="hero__edition">EDIÇÃO 01 / NOV. 2026</span></div>
+          <div className="hero__under-title"><span className="hero__edition">EDIÇÃO 01 / 2026</span></div>
         </div>
       </div>
       <div className="frame hero__about-grid">
@@ -23,7 +23,7 @@ export function Hero() {
         <div className="hero__about">
           <div className="eyebrow"><span className="eyebrow__dot" /> NOTA DA AUTORA / 00</div>
           <h2>Quem <em>escreve</em></h2>
-          {aboutParagraphs.map((paragraph, i) => <p key={i}>{paragraph}</p>)}
+          {aboutParagraphs.map((paragraph, i) => <p key={i}>{paragraph.split("**").map((part, j) => j % 2 ? <strong key={j}>{part}</strong> : part)}</p>)}
           <div className="hero__actions"><a className="primary-action" href="#pesquisa">Ler o diário de pesquisa <span aria-hidden="true">↗</span></a><a className="secondary-action" href="#leituras">Explorar as leituras <span aria-hidden="true">↗</span></a></div>
         </div>
       </div>

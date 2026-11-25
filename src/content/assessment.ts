@@ -8,16 +8,10 @@ export const selfAssessment = [
 ];
 
 export const courseAssessment = [
-  'Gostei da disciplina porque ela abriu espaço para formas de aprender que não encontro com tanta frequência no curso de Administração. As leituras foram importantes, mas não ficaram sozinhas. Tivemos atividades que pediram observação, pesquisa, conversa e circulação por outros espaços da cidade.',
+  'Gostei da disciplina porque ela abriu espaço para formas de aprender que não acredito que vá encontrar com frequência no curso. As leituras foram importantes, mas não ficaram sozinhas. Tivemos atividades que pediram observação, pesquisa, conversa e circulação por outros espaços da cidade.',
   'A visita à Fundação Joaquim Nabuco me fez reconsiderar o que significa conhecer uma instituição cultural. No REC’n’Play, o contato com profissionais de tecnologia trouxe perguntas sobre trabalho, dados e decisões organizacionais. No Cine Sócio, rever Ilha das Flores me mostrou como uma mesma obra pode oferecer caminhos diferentes de observação. Esses momentos fazem parte da experiência acadêmica tanto quanto os textos que discutimos.',
   'A disciplina também me ajudou a pensar no que significa agir em sociedade. Não no sentido de imaginar que uma pessoa, sozinha, consegue mudar estruturas complexas, mas no de reconhecer que nossas decisões, nosso trabalho e nossa participação acontecem dentro de relações maiores. Para alguém que estuda Administração e tecnologia, essa percepção é especialmente relevante.',
   'Não diria que o semestre transformou completamente minha visão de mundo. Eu já tinha perguntas e interesses anteriores à disciplina. O que aconteceu foi uma ampliação de repertório: encontrei conceitos para organizar algumas dúvidas, outras perguntas surgiram, e fiquei mais disposta a participar de debates que talvez antes eu acompanhasse em silêncio.'
-];
-
-export const courseSuggestion = [
-  'Uma possibilidade para turmas futuras seria reservar um breve momento depois de cada visita para que cada estudante compartilhasse uma fotografia, uma pergunta surgida durante a experiência e uma conexão com alguma leitura da disciplina.',
-  'Imagino essa dinâmica como uma forma simples de prolongar o olhar sobre o que vimos fora da sala, sem substituir os debates já realizados. Fotografias diferentes podem mostrar o que chamou atenção de cada pessoa; as perguntas ajudam a transformar observações em conversa; e a conexão com uma leitura pode aproximar a experiência dos conceitos discutidos em aula.',
-  'Gosto da ideia porque nem sempre consigo organizar uma percepção inteira durante o passeio ou no mesmo dia. Ter um momento breve para retomá-la poderia dar continuidade ao que começou na visita e abrir espaço para comparar olhares.'
 ];
 
 export const closingThought = 'Termino este portfólio sem todas as respostas. Mas levo comigo perguntas que hoje consigo fazer de um jeito mais atento. Principalmente, tenho mais vontade de colocá-las em conversa.';

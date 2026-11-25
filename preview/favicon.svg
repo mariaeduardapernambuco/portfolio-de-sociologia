@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="8" fill="#FAF7EC"/><path d="M9 8h46v48H9z" fill="none" stroke="#206AA5" stroke-width="3"/><path d="M19 8v48" stroke="#206AA5" stroke-width="3"/><path d="M26 22h24M26 32h24M26 42h16" stroke="#A31920" stroke-width="5"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="M, marca do Portfólio de Sociologia">
+  <rect width="64" height="64" rx="8" fill="#A31920"/>
+  <path d="M12 49V15h8l12 18 12-18h8v34h-9V30L32 46 21 30v19z" fill="#FAF7EC"/>
+  <rect x="12" y="53" width="40" height="3" fill="#C5E2F4"/>
+</svg>

@@ -1,13 +1,15 @@
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
+import { Projects } from './components/Projects';
 import { SectionHeading } from './components/SectionHeading';
 import { DiaryEntry } from './components/DiaryEntry';
 import { PhotoEssay } from './components/PhotoEssay';
 import { ActivityIndex } from './components/ActivityIndex';
+import { References } from './components/References';
 import { Footer } from './components/Footer';
 import { researchEntries } from './content/research';
 import { readingEntries } from './content/readings';
-import { selfAssessment, courseAssessment, courseSuggestion, closingThought } from './content/assessment';
+import { selfAssessment, courseAssessment, closingThought } from './content/assessment';
 
 function App() {
   const documentaryPhotos = researchEntries.flatMap(entry => entry.images);
@@ -18,9 +20,10 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <Projects />
         <section className="research-section editorial-section" id="pesquisa" aria-label="Diário de pesquisa">
           <div className="frame">
-            <SectionHeading id="pesquisa-inicio" index="01" category="Diário de pesquisa" title="O mundo não cabe numa única página." subtitle="Aulas, encontros e percursos que ampliaram meu jeito de observar. Um arquivo de perguntas feito a partir de experiências reais." />
+            <SectionHeading id="pesquisa-inicio" index="01" category="Diário de pesquisa" title="Diário de pesquisa" subtitle="Registros de aulas, visitas, conversas e experiências do semestre." />
             <div className="entries-list">{researchEntries.map(entry => <DiaryEntry entry={entry} key={entry.id} />)}</div>
           </div>
           <PhotoEssay photos={documentaryPhotos} />
@@ -44,14 +47,20 @@ function App() {
 
         <section className="course-section editorial-section" id="avaliacao-disciplina" aria-label="Avaliação da disciplina">
           <div className="frame">
-            <SectionHeading id="avaliacao-disciplina-inicio" index="04" category="Avaliação da disciplina" title="O que levo do semestre." subtitle="Uma avaliação pessoal da experiência e uma ideia para continuar as conversas." />
-            <div className="course-layout"><div className="course-layout__main"><p className="course-layout__kicker">01 / A experiência</p>{courseAssessment.map((p,i) => <p key={i}>{p}</p>)}</div><aside className="course-layout__suggestion"><span>02 / UMA POSSIBILIDADE</span><h3>Depois da visita,<br /><em>a conversa continua.</em></h3>{courseSuggestion.map((p,i) => <p key={i}>{p}</p>)}<div className="suggestion-steps"><span>Uma fotografia</span><span>Uma pergunta</span><span>Uma leitura</span></div></aside></div>
+            <SectionHeading id="avaliacao-disciplina-inicio" index="04" category="Avaliação da disciplina" title="O que levo do semestre." subtitle="Minha avaliação pessoal da disciplina." />
+            <div className="course-layout"><div className="course-layout__main"><p className="course-layout__kicker">01 / A experiência</p>{courseAssessment.map((p,i) => <p key={i}>{p}</p>)}</div></div>
             <div className="closing-note"><span>Última página / 04</span><p>{closingThought}</p></div>
           </div>
         </section>
 
         <section className="activities-section editorial-section" id="atividades" aria-label="Arquivo de atividades">
-          <div className="frame"><SectionHeading id="atividades-inicio" index="05" category="Arquivo documental" title="Para abrir e continuar lendo." subtitle="Diários, materiais de leitura e produções reunidos em um único índice, com retorno aos relatos correspondentes." /><p className="activities-notice">Os endereços são os fornecidos nos materiais do portfólio. A abertura de alguns arquivos pode depender de permissões de acesso dos serviços externos.</p><ActivityIndex /></div>
+          <div className="frame"><SectionHeading id="atividades-inicio" index="05" category="Arquivo documental" title="Arquivo de atividades" /><ActivityIndex /></div>
+        </section>
+        <section className="references-section editorial-section" id="referencias" aria-label="Referências e fontes">
+          <div className="frame">
+            <SectionHeading id="referencias-inicio" index="06" category="Fontes e referências" title="De onde vieram as ideias." subtitle="Textos, materiais da disciplina, registros e fontes que ajudam a acompanhar e conferir este percurso." />
+            <References />
+          </div>
         </section>
       </main>
       <Footer />

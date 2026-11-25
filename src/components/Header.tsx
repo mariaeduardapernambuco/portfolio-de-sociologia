@@ -32,8 +32,8 @@ export function Header() {
     <header className="site-header">
       <div className="reading-progress" role="presentation" style={{ transform: `scaleX(${progress / 100})` }} />
       <div className="site-header__bar frame">
-        <a className="brand" href="#topo" aria-label="Portfólio de Sociologia, voltar ao início"><span className="brand__square" aria-hidden="true">P<span>.</span></span><span>Portfólio de Sociologia</span></a>
-        <div className="header-right"><span className="header-note">UPE <span aria-hidden="true">/</span> 2026</span><a href="#atividades" className="header-index">Arquivo de atividades <span aria-hidden="true">↗</span></a></div>
+        <a className="brand" href="#topo" aria-label="Portfólio de Sociologia, voltar ao início"><span className="brand__square" aria-hidden="true"><img src="/favicon.svg" alt="" /></span><span>Portfólio de Sociologia</span></a>
+        <div className="header-right"><span className="header-note">UPE <span aria-hidden="true">/</span> 2026</span><a href="#referencias" className="header-index">Atividades e referências <span aria-hidden="true">↗</span></a></div>
       </div>
       <nav className="folder-nav frame" aria-label="Seções principais">
         {mainTabs.map((tab) => (
