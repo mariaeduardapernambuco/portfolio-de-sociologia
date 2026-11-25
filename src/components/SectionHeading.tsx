@@ -1,4 +1,4 @@
-interface Props { id: string; index: string; category: string; title: string; subtitle: string; tone?: 'light' | 'blue' }
+﻿interface Props { id: string; index: string; category: string; title: string; subtitle?: string; tone?: 'light' | 'blue' }
 
 export function SectionHeading({ id, index, category, title, subtitle, tone = 'light' }: Props) {
   return (
@@ -8,3 +8,4 @@ export function SectionHeading({ id, index, category, title, subtitle, tone = 'l
     </div>
   );
 }
+
